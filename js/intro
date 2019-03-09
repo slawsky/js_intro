@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+		var number=1; // noun after var is the name of the variable
+		function update () {
+			number *=  -1; 
+			/*document.getElementById ('img').style.height='100px';  
+			document.getElementById ('img').style.width='300px'; */
+			if (number == -1) {
+				document.getElementById("img").src='http://img.thedailybeast.com/image/upload/v1492785144/galleries/2013/05/16/george-takei-s-nine-favorite-star-trek-memes/party-spock_hqapnl.jpg';
+			}
+			if (number==1) {
+				document.getElementById("img").src='https://i.pinimg.com/originals/10/07/4e/10074ed095e0a9324c6172d06efc6a51.jpg';
+			} 
+		} 
+		
+//inbteween parentheisis-input parameters
+// double equal sign, shows that value is not being assigned to variable
+		</script>
+	</head>
+	<body>
+		<img id='img' src='http://img.thedailybeast.com/image/upload/v1492785144/galleries/2013/05/16/george-takei-s-nine-favorite-star-trek-memes/party-spock_hqapnl.jpg'
+		onclick="update()">
+	</body>
+	
+</html>
